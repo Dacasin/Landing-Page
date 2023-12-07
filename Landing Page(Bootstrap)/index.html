@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koppi-bara</title>
+    <link rel="icon" href="capy.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <button id="btnHide" class="btn btn-light  "><h2 id="myText">Koppi-bara</h2></button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse jumbotron text-center" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#product">Coffees</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+      </div>
+    </div>
+  </nav>
+<section id="product" class="py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron text-center">
+                <h1 class="">DRINK COFFEE</h1>
+                <p>"Do stupid things faster with more energy"</p>
+            </div>
+            <div class="col-lg-2">
+                <div class="card mb-4">
+                    <img src="espresso.jpg" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Espresso</h5>
+                        <p class="card-text">Our Espresso can help those who suffer from depression, can give you much brighter direction. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="card mb-4">
+                    <img src="icedcf.jpg" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Iced-Coffee</h5>
+                        <p class="card-text">Our Coffee with ice, typically served with a dash of milk, cream or sweetener. Iced coffee is really as simple as that.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="card mb-4">
+                    <img src="cafeaulait.webp" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Café au lait</h5>
+                        <p class="card-text">Our Café au lait is typically made with French press coffee instead of an espresso shot to bring out the different flavors in the coffee. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="card mb-4">
+                    <img src="macchiato.jpg" class="card-img-top" alt="Product 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Macchiato</h5>
+                        <p class="card-text">Our Macchiato is perfect for those who find espresso too harsh in flavour, but a cappuccino too weak.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 ">
+                <div class="card mb-4">
+                    <img src="frappe.jpg" class="card-img-top" alt="Product 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Frappe</h5>
+                        <p class="card-text">Our coffee frappe is a delicious, iced beverage that has been blended or beaten until it forms a foamy texture. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="card mb-4 ">
+                    <img src="bcof.jpg" class="card-img-top" alt="Product 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Dark Roast</h5>
+                        <p class="card-text">Our Dark roast coffee typically has a bold, smoky taste which can make you feel sunrise in your brain.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+            <button id="btnAnimate" class="btn btn-light  "><h2 id="mytxt" class="mb-2 text-center" >About Our Coffee</h2></button>
+          <h3>Welcome to our world of coffee, where every cup is a celebration of quality and flavor.</h3>
+          <p>Our coffee collection is a result of passion and care, sourcing the finest beans and crafting them into delicious brews. 
+            Each sip embodies our dedication to bringing you a delightful coffee experience,from the moment the beans are selected to when they reach your cup. 
+            Join us in exploring the wonderful flavors waiting to be discovered in every pour.</p>
+        </div>
+        <div class="col-lg-6">
+          <img src="coffeebeans.jpg" class="img-fluid rounded" alt="Company Image">
+        </div>
+      </div>
+    </div>
+  </section>
+<section id="contact" class="py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Contact Us</h2>
+                <p>Keep in touch, Send us a message.</p>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <button class="btn btn-outline-primary " type="submit">Submit</button>
+                </form> 
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $("#btnHide").click(function(){
+            $("#myText").fadeOut(5000);
+        });
+        $("#btnAnimate").click(function(){
+            $("#mytxt").animate({letterSpacing:20})
+        });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</html>
